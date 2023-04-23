@@ -200,7 +200,7 @@ int main() {
     return 0;
 }
 ```
-** Bài 12. Hàm F(x, y)**
+**Bài 12. Hàm F(x, y)**
 ```sh
 #include <stdio.h>
 #include <string.h>
