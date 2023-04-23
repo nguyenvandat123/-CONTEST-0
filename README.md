@@ -98,3 +98,21 @@ int main() {
     return 0;
 }
 ```
+**Hàm ceil, floor, round**
+```sh
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    double a;
+    scanf("%lf\n",&a);
+    printf("%d\n",(int)floor(a));
+    printf("%d\n",(int)ceil(a));
+    printf("%d\n",(int)round(a));
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
+```
