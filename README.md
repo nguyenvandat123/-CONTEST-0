@@ -65,3 +65,19 @@ int main() {
     return 0;
 }
 ```
+**Bài 4. Hàm pow**
+```sh
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int a,b;
+    scanf("%d %d\n",&a,&b);
+    printf("%lld",(long long)pow(a,b));
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
+```
