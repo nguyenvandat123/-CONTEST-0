@@ -81,3 +81,20 @@ int main() {
     return 0;
 }
 ```
+**Bài 5. Hàm sqrt và cbrt**
+```sh
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int a;
+    scanf("%d\n",&a);
+    printf("%.2lf\n",sqrt(a));
+    printf("%.3lf\n",cbrt(a));
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
+```
