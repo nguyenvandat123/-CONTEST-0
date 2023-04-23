@@ -116,3 +116,20 @@ int main() {
     return 0;
 }
 ```
+**Bài 7. Chữ số cuối cùng và 2 chữ số cuối cùng**
+```sh
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    long long n;
+    scanf("%lld\n",&n);
+    printf("%d\n",n%10);
+    printf("%d\n",n%100);
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
+```
