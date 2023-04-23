@@ -98,7 +98,7 @@ int main() {
     return 0;
 }
 ```
-**Hàm ceil, floor, round**
+**Bài 6. Hàm ceil, floor, round**
 ```sh
 #include <stdio.h>
 #include <string.h>
@@ -215,7 +215,7 @@ int main()
     return 0;
 }
 ```
-**Lớn nhất, nhỏ nhất**
+**Bài 13. Lớn nhất, nhỏ nhất**
 ```sh
 #include <stdio.h>
 #include <string.h>
