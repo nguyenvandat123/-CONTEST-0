@@ -181,3 +181,22 @@ int main() {
     return 0;
 }
 ```
+**Bài 11. Nhân chia**
+```sh
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int n;
+    scanf("%d\n",&n);
+    printf("%lld\n",1ll*n*2);
+    printf("\n%lld\n",1ll*n*10);
+    printf("\n%d\n",n/2);
+    printf("\n%.3lf\n",(double)n/2);
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
+```
