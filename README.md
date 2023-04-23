@@ -253,4 +253,20 @@ int main() {
     return 0;
 }
 ```
+**Bài 15. Mua vở**
+```sh
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
 
+int main() {
+    long long a,b;
+    scanf("%lld %lld\n",&a,&b);
+    printf("SO VO MUA DUOC LA : %lld !!!!!",(long long) floor(a/b));
+   
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
+```
