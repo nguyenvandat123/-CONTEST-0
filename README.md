@@ -237,3 +237,20 @@ int main() {
     return 0;
 }
 ```
+**Bài 14. Number in range**
+```sh
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    long long a,b;
+    scanf("%lld %lld\n",&a,&b);
+    printf("%lld",b-a+1);
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
+```
+
