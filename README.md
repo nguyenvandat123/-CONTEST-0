@@ -270,3 +270,22 @@ int main() {
     return 0;
 }
 ```
+**Bài 16. Cout**
+```sh
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int x,y,z,t;
+    scanf("%d %d %d %d\n",&x,&y,&z,&t);
+    printf("%d  %d  %d  %d\n",x,y,z,t);
+    printf("\n%d--%d--%d--%d\n",y,z,x,t);   
+    printf("\n%lld,%lld,%lld,%lld\n",2ll*x,3ll*y,4ll*z,5ll*t);
+    printf("\n%s\n","KET THUC !!");
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
+```
