@@ -149,3 +149,19 @@ int main() {
     return 0;
 }
 ```
+**Bài 9. Xóa số**
+```sh 
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    long long a;
+    scanf("%lld\n",&a);
+    printf("%lld\n",a/1000);
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
+```
