@@ -46,3 +46,22 @@ int main() {
     return 0;
 }
 ```
+**Bài 3. Print expression**
+```sh
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int x,y,z,t;
+    scanf("%d %d %d %d\n",&x,&y,&z,&t);
+    printf("%d,%d,%d,%d\n",y,z,x,t);
+    printf("%lld\n",(long long)x+y+z+t);
+    printf("%lld\n",(long long)x-y+1ll*z*t);
+    
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
+```
